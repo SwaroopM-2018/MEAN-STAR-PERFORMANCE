@@ -1,12 +1,18 @@
-# MEAN-STAR-PERFORMANCE
+# MEAN-STAR-PERFORMANCE - Cognizant Outreach 
 
-# MEAN Auth App with Angular Universal
-### Last Update: 3/7/2018
-This project has been updated with the most recent MEAN versions listed below and has been integrated with **Angular Universal** for SEO and social media compatibility using server-side rendering. The code of this project is a result of my code-along at the end of part 9 of the video series [MEAN Stack Front to Back](https://www.youtube.com/watch?v=uONz0lEWft0&list=PLillGF-RfqbZMNtaOXJQiDebNXjVapWPZ) by *Brad Traversy*.  His original code repo may be found [here](https://github.com/bradtraversy/meanauthapp).  Instructions on how to deploy this code to Heroku are also included.
+# Sections included :
 
-<p align="center">
-  <img width="500" height="335" src="./src/assets/png/homepage.png"><br>
-</p>
+## Authenticaton module
+   1) Rest Api - Node.js/Express
+   2) Token Generation / Authorization - JWT / Passport
+   3) CORS - back end and front end on different ports to send request we have to use it
+   4) Mongoose - user model for schema
+   5) Angular2 / Angular CLI
+   6) Angular router HTTP 
+   7) Angular 2 - JWT 
+   8) Auth guard
+   9) Angular flash module
+
 
 ## Versions Used
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) v1.7.3
