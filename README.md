@@ -16,7 +16,7 @@
 
 ## Versions Used
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) v1.7.3
-* MongoDB v3.6.2 (Mongoose 5.0.9)
+* MongoDB v3.6.2 (Mongoose  @5.4.13)
 * Express v4.16.2
 * Angular v5.2.8
 * Node.js v9.8.0
@@ -276,24 +276,4 @@ This code may be deployed to Heroku and connected to mLab making it accessible o
         "ng": "ng",
         "start": "node server.js",
         "build": "ng build",
-        "test": "ng test",
-        "lint": "ng lint",
-        "e2e": "ng e2e",
-        "postinstall": "ng build --prod && ng build --prod --app universal --output-hashing=none"
-    },
-    ```
-4. Move the following dependecies from `devDependencies` to `dependencies` in `package.json`:
-    ```json
-    "dependencies": {
-        ...
-        "@angular/cli": "1.6.2",
-        "@angular/compiler-cli": "^5.0.0",
-        ...
-        "typescript": "~2.4.2",
-        ...
-    },
-    ```
-5. Deploy to Heroku as directed in [Part 10](https://www.youtube.com/watch?v=cBfcbb07Tqk&t=1s).
-
-# Further help
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+        
